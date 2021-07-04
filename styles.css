@@ -1,0 +1,80 @@
+.bold {
+    font-weight: bold;
+}
+
+#people {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+#people td,
+#people th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#people tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#people tr:hover {
+    background-color: #ddd;
+}
+
+#people th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btn {
+    width: 25%;
+    padding: 1%;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background: #0069d9;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background: #116627;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-success {
+    background: #168d34;
+    border-bottom: 2px solid #168d34;
+}
+
+.btn-primary {
+    background: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
